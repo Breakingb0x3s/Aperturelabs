@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Banner Section*/
+
+.banner{
+    background-color: rgb(112, 233, 241);
+}
+
+.banner img{
+    max-width: 100%;
+    width: 1200px;
+    height: 300px;
+}
+
+/*Nav*/
+
+/*Services*/
+
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services p{
+    display: none;
+}
+
+.services img{
+    width: 320px;
+    height: 270px;
+}
+
+
+.services:hover img{
+    opacity: 0.5;
+    width: 70%;
+    z-index: 1;
+}
+
+.services:hover p{
+    display: block;
+    text-align: center;
+}
+
+/*Mission Statement*/
+
+.statement{
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    background-image: url(/media/alabsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Staff*/
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.staff{
+    width: 320px;
+}
+
+.staff img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.ceo{
+    margin-left: 500px;
+    margin-right: 500px;
+    align-content: center;
+}
+
+.ceo img{
+    width: 200px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    height: 100px;
+}
+
+footer .copywright{
+  justify-content: flex-end; 
+  margin-top: 50px;
+}
+
+footer img{
+    height: 100px;
+    justify-self: right;
+    margin-left: 1000px;
+}
+
